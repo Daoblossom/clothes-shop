@@ -1,0 +1,345 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+body {
+  /* background-image: linear-gradient(to right,cyan,hwb(60 0% 0%) ,#A6C0FE,pink); */
+}
+
+/*  Start Navication Bar  */
+
+.header{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  border: 0px solid #000;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 .5rem 5rem rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+nav {
+  display: flex;
+  list-style: none;
+  left: 40%;
+  text-align: center;
+}
+
+li a{
+  text-decoration: none;
+  
+  color: gray;
+  transition: all 0.5s ease-in-out;
+  padding: 1rem;
+}
+
+li a:hover{
+  color: black;
+}
+
+button {
+  background-color: gray;
+  color: #fff;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 2px;
+  transition: all .5s linear;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #000;
+  transform: scale(1.1);
+}
+
+/* End Navication Bar */
+
+/* Start Home Page */
+
+.home{
+  height: 100vh;
+  /* background-image: linear-gradient(to right,gray, #A6C0FE ); */
+}
+
+.home-container{
+  display: flex;
+  justify-content: space-between; 
+  padding-top: 5rem;
+}
+
+.text-container{
+  width: 50%;
+}
+
+.text-container h1{
+  text-transform: uppercase;
+  font-size: 5rem;
+  padding: 3rem;
+  margin: 5rem 2rem 0;
+}
+
+.text-container button{
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin-left: 5rem;
+}
+
+.image-container{
+  width: 50%;
+}
+
+img{
+  margin-top: 3rem;
+}
+
+.image1{
+  margin-left: 15rem;
+  width: 21%;
+}
+
+.icon-item{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.icon-item i{
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  color: #000;
+}
+
+.icon-item i:hover {
+  color:gray;
+}
+
+/* End Home Page */
+
+/* Start About Page */
+.about{
+  height: 100vh;
+}
+.text-header{
+  padding-top: 7rem;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-about{
+  width: 50%;
+  padding: 4rem;
+}
+
+.text-about h2{
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: black;
+  margin-bottom: 3rem;
+}
+
+.text-about button{
+  margin-top: 4rem;
+  text-transform: capitalize;
+}
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px; /* កម្លាតសងខាង */
+  margin-top: 3rem;
+}
+
+.box1{
+  border: 2px solid gray;
+  text-align: center;
+  width: 180px;
+  border-radius: 5px;
+  
+}
+
+.box1 img{
+  width: 100px;
+}
+
+.box1 p{
+  margin: 1rem 0 1rem;
+}
+
+.image-about{
+  width: 50%;
+  padding: 1rem;
+}
+
+.image-about img{
+  width: 95%;
+  border-radius: 5px;
+}
+
+/* Start Product Page */
+
+.product{
+  height: 150vh;
+}
+
+.product-container{
+  padding: 4.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px; /* កម្លាតសងខាង */
+}
+
+.product-container .iteam{
+  width: 17vw;
+}
+
+.product1{
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 5px;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+.product1 h1{
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.product1 span{
+  font-size: 1rem;
+}
+
+.product1 button{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 13px;
+  font-size: 1rem;
+  border: 2px solid gray;
+  background-color: transparent;
+  color: gray;
+  border-radius: 5px;
+}
+
+
+
+/* End Product Page */
+
+/* Start Book section  */
+
+.book{
+  height: 100vh;
+}
+
+.book-container{
+  margin: 2rem 32rem;
+  border: 2px solid gray;
+  padding: 3rem;
+  border-radius: 5px;
+  width: 650px;
+}
+
+.book-container input {
+  display: block;
+  width: 500px;
+  border: 2px solid gray;
+  margin: 1rem;
+  padding: 1rem;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.book-container textarea{
+  display: block;
+  margin: 1rem;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  border: 2px solid gray;
+  border-radius: 5px;
+  outline: none;
+  background-color: transparent;
+}
+
+.book-container button{
+  margin: 1rem;
+  background-color: transparent;
+  border: 2px solid gray;
+  color: gray;
+}
+
+/* End book section  */
+
+/* Start Review Section */
+
+.review{
+  height: 100vh;
+}
+
+.review-container{
+  display: flex;
+  
+}
+
+.customer1{
+  border: 2px solid gray;
+  margin: 4rem;
+  text-align: center;
+  width: 450px;
+  border-radius: 5px;
+}
+
+.customer1 img{
+  width: 60%;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+
+.customer1 p{
+  margin: 1rem;
+}
+
+.customer1 u{
+  font-size: 1.2rem;
+}
+
+.customer1 h3{
+  margin: 1rem;
+  text-transform: capitalize;
+}
+
+.foot-container{
+  display: flex;
+  background-color: rgb(46, 43, 43);
+}
+
+.foot{
+  width: 35%;
+  
+}
+
+.foot h3{
+  margin: 2rem 5rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.foot a{
+  display: block;
+  text-decoration: none;
+  margin: 1rem 5rem;
+  color: #fff;
+}
